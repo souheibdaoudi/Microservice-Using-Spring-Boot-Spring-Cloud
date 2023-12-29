@@ -1,0 +1,14 @@
+server:
+  port: 9192
+spring:
+  zipkin:
+    base-url: http://localhost:9411/
+
+  h2:
+    console:
+      enabled: true
+  application:
+    name: ORDER-SERVICE
+logging:
+  file:
+    name: C:\Users\DELL\Desktop\AL pdf\TP 9\Code\logs\microservice.log
